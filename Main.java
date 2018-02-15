@@ -12,10 +12,12 @@ public class Main{
 		}
 	}
 	public static void main(String[] arg){
-		int a=5,b=10;
+		int a=5,b=10,c=15;
 		boolean primo=true;
 		DeterminarNumeroPrimo(a,primo);
 		primo=true;
 		DeterminarNumeroPrimo(b,primo);
+		primo=true;
+		DeterminarNumeroPrimo(c,primo);
 	}
 }
